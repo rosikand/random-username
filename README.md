@@ -1,4 +1,4 @@
-# random_usernmame
+# Random Username Generator
 A simple program that generates random usernames wrapped in a Flask app. The random username is a string consisting of an english adjective
 followed by a noun and a number between 1-99--all generated randomly.
 
