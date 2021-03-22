@@ -1,7 +1,7 @@
 """
 File: app.py
 ------------------
-This is the runner file for the Flask app. 
+This is the file used to create the Flask app and assiociated routings. 
 """
 
 from flask import Flask, render_template, request
@@ -13,7 +13,7 @@ app = Flask(__name__)
 def hello_world():
     return render_template('index.html') 
 
-# background process happening without any refreshing
+
 @app.route('/get_usernames')
 def get_usernames():
     master_list = []
