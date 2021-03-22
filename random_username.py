@@ -3,6 +3,7 @@ File: random_username.py
 ------------------
 This program generates a random username consisting of an english adjective
 followed by a noun and a number. 
+This file specifically, contains the function used to generate the actual string. 
 """
 
 import random 
@@ -37,4 +38,3 @@ def get_random_word(file_name):
     word = word_list[rand_index].lower()
     
     return word.capitalize() # camelcase 
-
