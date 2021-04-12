@@ -16,7 +16,8 @@ def hello_world():
 
 @app.route('/get_usernames')
 def get_usernames():
-    master_list = []
-    for i in range(5):
-        master_list.append(get_random_username())
-    return render_template('usernames.html', username_list=master_list)
+    # the following three lines are for generating multiple usernames at once. 
+#     master_list = []
+#     for i in range(5):
+#         master_list.append(get_random_username())
+    return render_template('usernames.html', username_list=get_random_username())
