@@ -5,7 +5,7 @@ followed by a noun and a number between 1-99--all generated randomly.
 The main motivation for this project was to gain experience with Flask, web applications, and manual routing. 
 
 ## Use the program
-You can either use the program by downloading and running the `run.py` file on your local server or you can, conveniantly use it on the following website: [randomusername.pythonanywhere.com](http://randomusername.pythonanywhere.com/). 
+You can either use the program by downloading and running the `run.py` file on your local server or you can, conveniantly use it on the following website: [randomusername.pythonanywhere.com](http://randomusername.pythonanywhere.com/). Note: the web hosted version is currently down :(. 
 
 
 ### References
